@@ -1,0 +1,252 @@
+*{box-sizing: border-box;}
+body {
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	padding: 0;
+	font-family: 'Maven Pro', sans-serif;
+	width: auto;
+	height: auto;
+}
+
+.home-wrapper {
+  background-image: url('../Imagenes/Landing_alex_01');
+}
+
+.inicio_imagen img{
+  width: 100%;
+}
+
+
+header {
+  position: fixed;
+  padding: 25px 0;
+  width: 100%;
+  background-color: rgba(73,155,234,1);
+}
+header nav {
+  margin: auto;
+  text-align: center;
+
+
+}
+
+header nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 90px;
+  padding: 10px 15px;
+
+
+}
+
+#quienes .box{
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+  padding: 10px;
+
+}
+#quienes h1{
+  font-size: 50px;
+  font-weight: bold;
+  text-align:right;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+#quienes h3{
+    font-size: 20px;
+    margin-top: 50px;
+    line-height: 5px;
+	text-align:center;
+}
+
+#quienes h4{
+	text-align:right;
+	font-size: 20px;
+
+
+
+	}
+
+#quienes p {
+  font-size: 18px;
+  margin-top: 10px;
+  text-align:right;
+}
+
+
+  #servicios .box {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+
+
+}
+    #servicios h3{
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  #portafolio .box{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 20px;
+    background-color: white;
+
+  }
+  #portafolio .box img{
+    width: 100%;
+  }
+
+  #portafolio .box p{
+    color: #777;
+    padding: 10px;
+
+  }
+
+    #portafolio h3{
+        font-size: 30px;
+        margin-top: 50px;
+  }
+
+  #contacto{
+    background-color: #6db3f2;
+    background-image: url('../imagenes/disenio-grafico-rozpalsac.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+
+  #contacto input{
+    padding: 20px;
+    width: 400px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+  }
+
+  #contacto textarea{
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+  }
+
+  #contacto button{
+  background-color: #9dd53a;
+  padding: 20px 40px;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  line-height: 4px;
+  font-weight: bold;
+  }
+
+  #contacto h2{
+    color: white;
+  }
+
+  footer{
+    padding: 90px 0;
+    text-align: center;
+    font-size: 18px;
+  }
+section{
+    padding: 80px 0px;
+  }
+
+
+
+  section h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 80px;
+    color:black;
+  }
+
+  .container{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+@media screen and (max-width:800px){
+.box {
+	width: 800px;
+	height: 500px;
+	margin-left: 20%;
+
+}
+
+header {
+	display:none;
+	position: fixed;
+	padding: 10px 0;
+	width: 799px;
+	}
+
+header nav {
+	width: 30%;
+	float: left;
+
+
+}
+
+#portafolio .box{
+	width: 70%;
+	height: 600px;
+	margin-left: 30px;
+
+	}
+
+#contacto{
+	width: 70%;
+	height: 550px;
+	margin-left: 50px;
+	margin-right: 80px;
+	}
+
+	section h2{
+	width: 350px;
+	height: 200px;
+	margin-left: 120px;
+	margin-right: 100px;
+		}
+
+	section{
+		padding: 5px 0px;
+		}
+
+	 #contacto h2{
+	width: 500px;
+	height: 100px;
+	margin-left: 1px;
+	margin-right: 100px;
+
+		 }
+
+	#contacto textarea  {
+	width: 400px;
+	height: 50px;
+	padding: 20px 20px;
+
+	}
+
+	footer {
+		width: 500px;
+		margin-left: 110px;
+	margin-right: 100px;
+		}
+
+		.container{
+			width: 799px;
+    margin-left: auto;
+    margin-right: auto;
+			}
+		}
